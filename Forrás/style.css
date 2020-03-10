@@ -1,0 +1,15 @@
+.row p{
+    margin-bottom: 4px;
+}
+
+.col-12 {
+    border: 4px solid #ddd;
+}
+
+#legnepszerubb .card-body {
+	font-size: 16px;
+}
+
+.btn {
+	font-size: 16pt;
+}

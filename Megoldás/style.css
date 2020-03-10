@@ -1,0 +1,29 @@
+p {
+    text-align: justify;
+}
+
+.bg-ddd {
+    background-color: #ddd !important;
+}
+
+.row p{
+    margin-bottom: 4px;
+}
+
+.col-12 {
+    border: 4px solid #ddd;
+}
+
+a, a:hover {
+    color: #f8f9fa;
+}
+
+#legnepszerubb .card-body {
+	font-size: 16px;
+    color: darkblue;
+    text-align: justify;
+}
+
+.btn {
+	font-size: 16pt;
+}

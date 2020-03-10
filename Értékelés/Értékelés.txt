@@ -1,0 +1,14 @@
+1 pont	UTF-8, magyar, title
+1 pont	css hivatkozás
+2 pont	2 új menüpont, hivatkozások rendben
+1 pont	Címsorok megformázása
+1 pont	szöveg beillesztése
+1 pont	bekezdések kialakítása
+1 pont	Blockchain szöveg kiemelése
+1 pont	Kép beszúrása
+2 pont	Képaláírás megfelelően formázott, css-ben selector hozott létre
+2 pont	Felsorolás kialakítása, hovatkozásokat kialakította
+2 pont	css formázások
+1 pont	Radio gombok - "name" megadása
+1 pont	javascript hivatkozás
+3 pont	Javascript kódolása

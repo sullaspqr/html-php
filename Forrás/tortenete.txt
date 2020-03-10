@@ -1,0 +1,9 @@
+A kriptovaluták története egészen az 1980-as évekig nyúlik vissza Hollandiába. A kamionsofőrök készpénz helyett egy újfajta kártyát kaptak, ezzel fizettek a tankolásokért.
+
+Az 1990-es években a DigiCash nevű vállalkozáshoz fűződik a kriptovaluta elődje. A cég a tranzakciók során már akkor kriptográfiát használt. David Chaum – a DigiCash alapítója – 1993-ban feltalálta az e-cash nevű digitális fizetési rendszert. Működése hiába volt sikeres, a cég a későbbiekben csődbe ment – az innovációja meghaladta a kor elvárásait és gyakorlatát.
+
+1998-ban érkezett mérföldkőhöz a történet, amikor is megalakult a PayPal, mely egy nemzetközi digitális rendszer, mely lehetővé teszi online pénzátutalások lebonyolítását.
+
+A első kriptovaluta tényleges kibocsátására 2009-ig kellett várni (nem véletlenül igazodva a globális pénzügyi válság kezdő időszakához), amikor is egy Satoshi Nakamoto nevű ember vagy csoport megalkotta a Bitcoint. Jellegzetes tulajdonságai, hogy független a kormányzati és vállalati érdekektől, nem kapcsolódik be a hagyományos bankrendszerbe, decentralizált, megvásárlása törvényes valutával történik. Kriptográfiát, titkosítást használ és ha a felek úgy akarják anonimak maradhatnak a tranzakció lebonyolítása során. A Bitcoin protokoll alapjait híres fehér könyvében, az "Egy peer-to-peer elektronikus készpénzrendszer" című tanulmányában fektette le
+
+Néhány évnek el kellett telnie ahhoz, hogy a kriptovaluta szélesebb körben is ismertté és elismertté váljon. Az évek folyamán rengeteg új valuta jelent meg a kriptovaluták piacán, néhány ezek közül igazi sikertörténetté vált, nagy része pedig elértéktelenedett. Jelenleg is körülbelül 900 coin létezik.
