@@ -1,0 +1,68 @@
+<html>
+<body>
+<!--
+method=get -> url-ben fent
+method=post -> a html fejlécben küldi
+-->
+<form name="adatok" method="get" action="urlapok2.html">
+<input type="hidden" name="id" value="20"><br>
+ <fieldset>
+ <legend>Fontos adatok megadása</legend>
+ Név: <input type="text" name="name" value="Ide írd be a neved!" size=20><br>
+ E-mail: <input type="text" name="email" value="Ide írd be az e-mail címed!" size=20><br>
+ Jelszó: <input type="password" name="pwd" value="Ide írd be a jelszavad!" size=20><br><br>
+</fieldset>
+<p>Válaszd ki, hogy melyik nyelvet ismered:<br>
+<label><input type="checkbox" name="subject1"
+value="hungarian">Magyar</label>
+<label><input type="checkbox" name="subject2"
+value="french">Francia</label>
+<label><input type="checkbox" name="subject3"
+value="english">Angol</label></p>
+<p>
+Válaszd ki, hogy melyik a kedvenc idegen nyelved:<br>
+<label><input type="radio" name="subject"
+value="hungarian">Magyar</label>
+<label><input type="radio" name="subject"
+value="french">Francia</label>
+<label><input type="radio" name="subject"
+value="english" checked>Angol</label></p>
+
+<p><input type="date" name="date"></p>
+<p><input type="range" name="intervallum" value="10"
+min="0" max="100" step="5"></p>
+<p>
+<input type="file" name="upload">
+</p>
+<p>
+Válasz színt!<input type="color" name="color">
+</p>
+<p>
+Válasz egy neked tetsző opciót: <select name="select">
+	<option value="a">A válasz
+	<option value="b">B válasz
+	<option value="c">C válasz
+	<option value="d">D válasz
+</select>
+</p>
+
+Több opciós lehetőség: <select name="select" multiple>
+	<option value="a">A válasz
+	<option value="b">B válasz
+	<option value="c">C válasz
+	<option value="d">D válasz
+</select>
+</p>
+<p>
+Szövegdoboz:
+<textarea name="textarea" cols="20" rows="5">
+</textarea>
+
+</p>
+
+<input type="reset" name="reset" value="Újrakezdés">
+<input type="submit" name="btn" value="Adatok elküldése"> 
+
+</form>
+</body>
+</html>
