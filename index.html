@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>JavaScript tananyag</title>
+</head>
+<body>
+<script type="text/javascript">
+document.write('<b>Hello</b> World!<br>');
+document.write('<i>Helló világ ez itt a második sor! </i><br>');
+document.write('harmadik sor', ' ez is a harmadik sor<br>');
+
+document.write('<b>1+1=</b>',1+1,'<br>');
+/* persze ne keressünk túl mély értelmet a progiban, hiszen a következő sor
+is ugyanazt az értéket számolja ki  */
+document.write('<b>2+1=</b>',2+1,'<br>');
+
+document.write(1548*23+15/14-12, '<br>');
+// persze a JS ismeri a zárójelet, így a köv. sor egészen más eredményt hoz:
+document.write(1548*(23+15)/(14-12), '<br>');
+/* precedencia szabálynak hívják – randa név, de mit tehetünk …
+az alkalmazott műveleti jeleket pedig aritmetikai operátoroknak nevezzük – ez
+sem szebb. Itt van még egy: */
+document.write('100 osztva 8-cal a maradék=',100%8, '<br>');
+/* a százalékjellel végzett művelet neve: Modulo, és az osztás maradékát adja.
+Fura, de gyakran lesz rá szükség. */
+
+var a = 2;
+var b = 3;
+document.write('a =',a,'<br>');
+document.write('b =',b,'<br>');
+document.write('K = a+ b =',a+b,' és T=a*b =',a*b);
+
+var c ='kutya';
+var d ='cica';
+document.write('<br>A két változót egymás után írjuk:',d+c);
+document.write('<br>');
+var a = prompt('Kérek egy számot','0');
+	if (isFinite(a)) { // ha "a" szám típusú, akkor…
+		if (Math.floor(a)==a) { // ha egész szám, akkor…
+			if (a % 2 == 0) { // ha "a" osztható kettővel
+			document.write(a, ' páros<br>'); // akkor fut le, ha az állítás IGAZ
+			} else {
+			document.write(a, ' páratlan<br>'); // ha az állítás HAMIS
+			} // vége a páros/páratlan feltételnek
+		} else { // ha nem számot írt be
+		document.write(a, ' Valós szám!<br>'); } // ha nem egész számot írt be
+	} else {
+	document.write(a, ' NEM SZÁM!<br>');
+}
+</script>
+</body>
+</html>
